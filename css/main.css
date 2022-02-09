@@ -3,6 +3,7 @@
 .sec_cnt .sec_top h2{line-height:1.3; font-size:80px; font-weight:700; color:#333;}
 .sec_cnt .sec_top a{transition:transform .4s ease;}
 .sec_cnt .sec_top a:hover{transform:rotate(180deg);}
+.sec_cnt .sec_top a img:last-child{display: none;}
 .sec_cnt .sec_desc{display:block; font-size:24px; font-weight:300; color:#666;}
 
 /*** visual ***/
@@ -282,7 +283,9 @@
 @media screen and (max-width:600px) {
   .sec_cnt{padding:0 20px;}
   .sec_cnt .sec_top h2{font-size:20px;}
-  .sec_cnt .sec_top a{width: 15px; height: 15px; margin-top: 7px;}
+  .sec_cnt .sec_top a{width: 15px; height: 15px; margin-top: 1px;}
+  .sec_cnt .sec_top a img:first-child{display: none;}
+  .sec_cnt .sec_top a img:last-child{display: block;}
   .sec_cnt .sec_desc{margin-top:3px; line-height: 16px; font-size:12px;}
   .portfolio_area{margin-top:60px;}
   .portfolio_area .portfolio_slide{margin-top:20px;}
