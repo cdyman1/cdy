@@ -1,0 +1,121 @@
+
+.recruit .culture_con {width: 1480px;margin:0 auto; padding: 0 20px;}
+.recruit .culture_con .culture_content {margin-top:200px;}
+.recruit .culture_con .culture_content > h2 {font-family:'Gotham Bold'; font-weight:700; font-style:normal; font-size:40px; line-height:40px; letter-spacing:-0.03em; color:#333333;}
+.recruit .culture_con .culture_content > ul li {margin-top:60px; float:left;width:25%; padding:0 100px; box-sizing:border-box; text-align:center;}
+.recruit .culture_con .culture_content > ul li > div {width:140px; height:140px; border-radius:50%; background:#F4F4F4; line-height:140px; margin:0 auto;}
+.recruit .culture_con .culture_content > ul li > div img {vertical-align:middle;}
+.recruit .culture_con .culture_content > ul li > h4 {margin-top:20px; font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:18px; line-height:28px; letter-spacing:-0.03em; color:#333333;}
+
+.recruit .recruit_con {position:relative; margin-top:250px;}
+.recruit .recruit_con .recruit_cnt{position:relative; z-index:10; width:1480px; margin:0 auto; padding:160px 20px 0;}
+.recruit .recruit_con .recruit_cnt .tit{display:block; line-height:63px; font-size:80px; font-weight:700; color:#333;}
+.recruit .recruit_con .recruit_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Gotham'; font-size:150px; font-weight:700; color:#333; letter-spacing:-0.06em;}
+.recruit .recruit_con .recruit_cnt .txt02{display:block; line-height:120px; font-family:'Gotham Thin'; font-size:100px; font-weight:100; color:#333;}
+.recruit .recruit_con .recruit_cnt .txt03{margin-top:50px; line-height:28px; font-size:20px; color:#666;}
+.recruit .recruit_con .recruit_bg{position:absolute; top:0; left:0; width:100%; height:500px; background:url(../images/main/img_recruit.png) center top; background-attachment:fixed; background-repeat:no-repeat; background-size:cover;}
+
+.recruit .recruit_con .recruit_list {position:relative; margin-top:70px;}
+.recruit .recruit_con .recruit_list ul li {position:relative; float:left; width:calc(50% - 35px); height:400px; margin-top:30px; border-radius:20px;}
+.recruit .recruit_con .recruit_list ul li.re_l1 {background:url(../images/recruit/re_l1.png) center no-repeat; background-size:cover;}
+.recruit .recruit_con .recruit_list ul li.re_l2 {background:url(../images/recruit/re_l2.png) center no-repeat; background-size:cover;}
+.recruit .recruit_con .recruit_list ul li.re_l3 {background:url(../images/recruit/re_l3.png) center no-repeat; background-size:cover;}
+.recruit .recruit_con .recruit_list ul li.re_l4 {background:url(../images/recruit/re_l4.png) center no-repeat; background-size:cover;}
+.recruit .recruit_con .recruit_list ul li:nth-child(even) {margin-left:35px;}
+.recruit .recruit_con .recruit_list ul li span {position:absolute; left:0; bottom:50px; width:450px; height:80px; background:#43C5DB; border-radius: 0 100px 100px 0; font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:40px; line-height:80px; letter-spacing:-0.03em; color:#FFFFFF; padding-left:40px;}
+
+.recruit .recruit_con .recruit_list .re_listbox {position:absolute; top:0; left:0; width:0; height:0; opacity:0; border-radius:20px; box-sizing:border-box; border:1px solid #CCCCCC; border-top:5px solid #CCCCCC; background:#FFFFFF; text-align:center; transition: all .3s;}
+.recruit .recruit_con .recruit_list .re_listbox.active {width:100%; height:100%; opacity:1;}
+.recruit .recruit_con .recruit_list .re_listbox .re_listboxL {float:left; display:table; width:30%; height:100%;}
+.recruit .recruit_con .recruit_list .re_listbox .re_listboxL span {display:table-cell; vertical-align: middle;  font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:40px; line-height:58px; letter-spacing:-0.03em; color:#333333;}
+.recruit .recruit_con .recruit_list .re_listbox .re_listboxR {float:right; text-align:left; width:70%; height:100%; padding:60px; box-sizing:border-box;}
+.recruit .recruit_con .recruit_list .re_listbox .re_listboxR h4 {font-family:'Gotham Bold'; font-weight:700; font-style:normal; font-size:40px; line-height:38px; letter-spacing:-0.03em; color:#43C5DB;}
+.recruit .recruit_con .recruit_list .re_listbox .re_listboxR p {margin-top:50px; font-family:'Noto Sans KR'; font-weight:400; font-style:normal; font-size:20px; line-height:28px; letter-spacing:-0.03em; color:#333333;}
+
+
+.recruit .recruit_con .recruit_list .re_listbox .recruit_close {position:absolute; top:40px; right:40px;}
+
+.recruit .recruit_con .recruit_list .re_listbox .recruit_btn {position:absolute; bottom:40px; left:50%; transform:translateX(-50%);}
+.recruit .recruit_con .recruit_list .re_listbox .recruit_btn a {display:block; width:250px; height:80px; background:#19254C; line-height:80px; border-radius:60px; font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:20px; letter-spacing:-0.03em; text-align:center; color:#FFFFFF;}
+
+.recruit .recruit_con .recruit_form {margin-top:300px;}
+.recruit .recruit_con .recruit_form > h4 {font-family:'Gotham Bold'; font-weight:700; font-style:normal; font-size:40px; line-height:38px; letter-spacing:-0.03em; color:#333333;}
+.recruit .recruit_con .recruit_form form {margin-top:60px; text-align:center;}
+.recruit .recruit_con .recruit_form form .recruit_radio {width:100%; height:80px; line-height:80px; border-radius:80px; background:#F8F8F8; text-align:center;}
+.recruit .recruit_con .recruit_form form .recruit_radio label {padding-left:40px;position:relative; font-family:'Noto Sans KR'; font-weight:400; font-style:normal; font-size:20px; line-height:28px; letter-spacing:-0.03em; color:#333333;}
+.recruit .recruit_con .recruit_form form .recruit_radio input + label {margin-left:30px;}
+.recruit .recruit_con .recruit_form form .recruit_radio input[type=radio] {display:none;}
+.recruit .recruit_con .recruit_form form .recruit_radio input[type=radio] + label:before {content:'';position:absolute; top:0; left:0; width:30px; height:30px; background:url('../images/recruit/form_chkOff.svg') no-repeat center center; background-size:contain;}
+.recruit .recruit_con .recruit_form form .recruit_radio input[type=radio]:checked + label:before {background-image:url('../images/recruit/form_chkOn.svg');}
+
+/***** inquire *****/
+.recruit .inquire_select{width: 100%; height: 80px; margin-top: 60px;background-color: #F8F8F8;border-radius: 40px;}
+.recruit .inquire_select ul{display: flex; justify-content: center;align-items: center; width: 100%; height: 80px;}
+.recruit .inquire_select ul li{margin: 0 15px;}
+.recruit .inquire_select label{font-size: 20px;font-weight: 400;cursor: pointer;}
+.recruit .inquire_select input[type=radio]{margin-right: 8px; vertical-align: bottom;}
+.recruit .inquire_input{margin-top: 80px;}
+.recruit .inquire_input .input_top{display: flex;justify-content: space-between;}
+.recruit .inquire_input .input_top > div{width: calc(50% - 18px);}
+.recruit .inquire_input .input_tit{width: 100%;margin-top: 20px;}
+.recruit .inquire_input .input_cnt{margin-top: 50px;}
+.recruit .inquire_input .input_cnt textarea{width: 100%;height: 300px; padding: 20px; font-size: 20px; border:solid 1px #ccc;border-radius: 10px; resize: none;}
+
+.recruit .inquire_agree{margin-top: 35px; text-align:left;}
+.recruit .inquire_agree input{vertical-align: middle;}
+.recruit .inquire_agree .chk_box label{display: inline-block; position: relative; top: 5px; margin-left: 5px; line-height: 1.2; font-size: 20px;font-weight: 400; cursor: pointer;}
+.recruit .inquire_agree .chk_box label:after{content: ''; display: block; bottom: 0; width: 100%; height: 1px; background-color: #333;}
+
+/*** input text box ***/
+.recruit .inquire_input .input_box{position:relative; margin-bottom:30px; padding-bottom:30px;}
+.recruit .inquire_input .input_box input[type=text]{width:100%; height:55px; padding: 0 10px; font-size: 20px; font-weight: 400; border:0;}
+.recruit .inquire_input .input_box > label{position:absolute; left:0%; top:0; width:100%; height:55px; line-height: 28px; font-size: 24px; border-bottom:1px solid #ccc; text-align:left; pointer-events:none;}
+.recruit .inquire_input .input_box > label i{margin-left: 2px; color: #D22323;}
+.recruit .inquire_input .input_box > label:after {content:""; position:absolute; left:0; bottom:-1px; width:0; height:100%; border-bottom:1px solid #333; transition:all .3s ease;}
+.recruit .inquire_input .input_box > label span {position:absolute; left:0; top:5px; transition:all .3s ease;}
+.recruit .inquire_input .input_box input:focus + label span, 
+.recruit .inquire_input .input_box input:valid + label span {transform:translateY(-100%); font-size:16px; color:#666;} 
+.recruit .inquire_input .input_box input:focus + label:after,
+.recruit .inquire_input .input_box input:valid + label:after {width:100%; transform:translateX(0);}
+.recruit .inquire_input .input_box .txt_error{display: none; position:absolute;bottom: 0;}
+.recruit .inquire_input .input_box .txt_error span{display: block; position: relative; margin-top: 8px; padding-left: 25px; font-size: 16px; color: #D22323;}
+.recruit .inquire_input .input_box .txt_error span:before{content: ''; display: block; position:absolute; left: 10px; top: 50%;width: 5px;height: 5px; background-color: #D22323;border-radius: 50%;transform: translateY(-50%);}
+
+.recruit .inquire_input .input_portfolio {position:relative; padding-bottom: 30px;}
+.recruit .inquire_input .input_portfolio > label {display:block; position:relative; width:100%; height:55px; line-height: 28px; font-size: 24px; border-bottom:1px solid #ccc; text-align:left; pointer-events:none;}
+.recruit .inquire_input .input_portfolio > label i {margin-left: 2px; color: #D22323;}
+.recruit .inquire_input .input_portfolio .txt_error{display: none; position:absolute;bottom: 0;}
+.recruit .inquire_input .input_portfolio .txt_error span{display: block; position: relative; margin-top: 8px; padding-left: 25px; font-size: 16px; color: #D22323;}
+.recruit .inquire_input .input_portfolio .txt_error span:before{content: ''; display: block; position:absolute; left: 10px; top: 50%;width: 5px;height: 5px; background-color: #D22323;border-radius: 50%;transform: translateY(-50%);}
+
+.portfolio_btnCon {position:absolute; top:0; right:0;}
+.portfolio_btnCon .url_btn {margin-right:10px; display:inline-block; width:120px; height:40px; border:1px solid #CCCCCC; border-radius:60px; box-sizing:border-box; font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:16px; line-height:40px; letter-spacing:-0.03em; text-align:center; color:#333333;}
+.portfolio_btnCon .url_btn img {margin-left:10px; width:20px; height:20px; vertical-align:sub;}
+.portfolio_btnCon input[type="file"] {display:none;}
+.portfolio_btnCon > label {display:inline-block; width:120px; height:40px; border:1px solid #CCCCCC; border-radius:60px; box-sizing:border-box; font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:16px; line-height:40px; letter-spacing:-0.03em; text-align:center; color:#333333;}
+.portfolio_btnCon > label img {margin-left:10px; width:20px; height:20px; vertical-align:sub;}
+
+/*** input checkbox ***/
+.check_basic{width: 30px;height: 30px;border: 0;cursor: pointer;}
+.check_basic:before{content: '';display: inline-block;width: 30px;height: 30px;background: url(../images/common/bg_input_checkbox_off.png) no-repeat;}
+.check_basic:checked:before {background-image: url(../images/common/bg_input_checkbox_on.svg);}
+
+/*** input radio ***/
+.radio_basic{width: 30px;height: 30px;border: 0;cursor: pointer;}
+.radio_basic:before{content: '';display: inline-block;width: 30px;height: 30px;background: url(../images/common/bg_input_radio_off.svg) no-repeat;}
+.radio_basic:checked:before {background-image: url(../images/common/bg_input_radio_on.svg);}
+
+.input_roleBox li {position:relative; float:left; width:33.33%;}
+
+.addr_btn {position:absolute; top:0; right:0;  width:120px; height:40px; border:1px solid #CCCCCC; border-radius:60px; box-sizing:border-box; font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:16px; line-height:40px; letter-spacing:-0.03em; text-align:center; color:#333333;}
+.addr_btn img {margin-left:10px; width:20px; height:20px; vertical-align:sub;}
+
+.inquire_btn {display:inline-block; width:250px; height:80px; background:#19254C; border-radius:60px; line-height:80px; margin:50px auto 0 auto; text-align:center;}
+.inquire_btn > a {font-family:'Noto Sans KR'; font-weight:700; font-style:normal; font-size:20px; letter-spacing:-0.03em; text-align:center; color:#FFFFFF;}
+.inquire_btn > img {margin-left:15px; width:16px; vertical-align:sub;}
+
+input {outline:none;}
+
+.role_con {}
+.role_con li {position:relative; display:inline-block; width:20%; text-align:left;}
+.role_con li > label {position:absolute; left:50px; top:0; height:55px; line-height: 28px; font-size: 24px; text-align:left; pointer-events:none;}

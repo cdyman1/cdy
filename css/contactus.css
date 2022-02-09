@@ -1,0 +1,70 @@
+.contact_us{width: 1480px;margin:0 auto; padding: 0 20px; color: #333;}
+/***** inquire *****/
+.contact_us .inquire{margin-top: 200px;}
+.contact_us .inquire .inquire_select{width: 100%; height: 80px; margin-top: 60px;background-color: #F8F8F8;border-radius: 40px;}
+.contact_us .inquire .inquire_select ul{display: flex; justify-content: center;align-items: center; width: 100%; height: 80px;}
+.contact_us .inquire .inquire_select ul li{margin: 0 15px;}
+.contact_us .inquire .inquire_select label{font-size: 20px;font-weight: 400;cursor: pointer;}
+.contact_us .inquire .inquire_select input[type=radio]{margin-right: 8px; vertical-align: bottom;}
+.contact_us .inquire .inquire_input{margin-top: 80px;}
+.contact_us .inquire .inquire_input .input_top{display: flex;justify-content: space-between;}
+.contact_us .inquire .inquire_input .input_top > div{width: calc(50% - 18px);}
+.contact_us .inquire .inquire_input .input_tit{width: 100%;margin-top: 30px;}
+.contact_us .inquire .inquire_input .input_cnt{margin-top: 50px;}
+.contact_us .inquire .inquire_input .input_cnt textarea{width: 100%;height: 300px; padding: 20px; font-size: 20px; border:solid 1px #ccc;border-radius: 10px; resize: none;}
+
+/*** input text box ***/
+.contact_us .inquire .inquire_input .input_box{position:relative;height: 85px;padding-bottom: 30px;}
+.contact_us .inquire .inquire_input .input_box input[type=text]{width:100%; height:55px; padding: 0 10px; font-size: 20px; font-weight: 400; border:0;}
+.contact_us .inquire .inquire_input .input_box label{position:absolute; left:0%; top:0; width:100%; height:55px; line-height: 28px; font-size: 24px; border-bottom:1px solid #ccc; text-align:left; pointer-events:none;}
+.contact_us .inquire .inquire_input .input_box label i{margin-left: 2px; color: #D22323;}
+.contact_us .inquire .inquire_input .input_box label:after{content:""; position:absolute; left:0; bottom:-1px; width:0; height:100%; border-bottom:1px solid #333; transition:all .3s ease;}
+.contact_us .inquire .inquire_input .input_box label span{position:absolute; left:0; top:5px; transition:all .3s ease;}
+.contact_us .inquire .inquire_input .input_box input:focus + label span, 
+.contact_us .inquire .inquire_input .input_box input:valid + label span{transform:translateY(-100%); font-size:16px; color:#666;} 
+.contact_us .inquire .inquire_input .input_box input:focus + label:after,
+.contact_us .inquire .inquire_input .input_box input:valid + label:after{width:100%; transform:translateX(0);}
+.contact_us .inquire .inquire_input .input_box .txt_error{display: none; position:absolute;bottom: 0;}
+.contact_us .inquire .inquire_input .input_box .txt_error span{display: block; position: relative; margin-top: 8px; padding-left: 25px; font-size: 16px; color: #D22323;}
+.contact_us .inquire .inquire_input .input_box .txt_error span:before{content: ''; display: block; position:absolute; left: 10px; top: 50%;width: 5px;height: 5px; background-color: #D22323;border-radius: 50%;transform: translateY(-50%);}
+
+.contact_us .inquire .inquire_agree{margin-top: 35px;}
+.contact_us .inquire .inquire_agree input{vertical-align: middle;}
+.contact_us .inquire .inquire_agree .chk_box label{display: inline-block; position: relative; top: 5px; margin-left: 5px; line-height: 1.2; font-size: 20px;font-weight: 400; cursor: pointer;}
+.contact_us .inquire .inquire_agree .chk_box label:after{content: ''; display: block; bottom: 0; width: 100%; height: 1px; background-color: #333;}
+.contact_us .inquire .inquire_btn{margin-top: 50px;text-align: center;}
+
+/***** way to come *****/
+.contact_us .waytocome{margin-top: 300px;}
+.contact_us .waytocome .company_info{display: flex; margin-top: 60px;}
+.contact_us .waytocome .company_info .map{width: 825px; height: 540px;}
+.contact_us .waytocome .company_info dl{margin-left: 35px;}
+.contact_us .waytocome .company_info dl dt{margin-top: 30px; font-size: 20px; font-weight: 700;}
+.contact_us .waytocome .company_info dl dt:first-child{margin-top: 0;}
+.contact_us .waytocome .company_info dl dd{font-size: 16px; font-weight: 300;}
+
+/*** 지도 팝업 ***/
+.wrap_map{position: absolute;left: 0;bottom: 40px;width: 288px;height: 109px;margin-left: -144px;text-align: left;overflow: hidden;font-size: 12px;font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;line-height: 1.5;}
+.wrap_map *{padding: 0;margin: 0;}
+.wrap_map .info{width: 286px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
+.wrap_map .info:nth-child(1){border: 0;box-shadow: 0px 1px 2px #888;}
+.wrap_map .info .title{padding: 5px 0 0 15px;height: 35px;background: #eee;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
+.wrap_map .info .close{position: absolute;top: 11px;right: 15px;color: #888;width: 13px;height: 13px;background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');background-size: contain;}
+.wrap_map .info .close:hover{cursor: pointer;}
+.wrap_map .info .body{position: relative;overflow: hidden;}
+.wrap_map .info .desc{position: relative;margin: 13px 0 13px 15px;}
+.wrap_map .desc .ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.wrap_map .desc .jibun{font-size: 11px;color: #888;margin-top: -2px;}
+.wrap_map .info .img{position: absolute;top: 6px;left: 5px;width: 73px;height: 71px;border: 1px solid #ddd;color: #888;overflow: hidden;}
+.wrap_map .info:after{content: '';position: absolute;margin-left: -12px;left: 50%;bottom: 0;width: 22px;height: 12px;background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+.wrap_map .info .link{color: #5085BB;}
+
+/*** input checkbox ***/
+.check_basic{width: 30px;height: 30px;border: 0;cursor: pointer;}
+.check_basic:before{content: '';display: inline-block;width: 30px;height: 30px;background: url(../images/common/bg_input_checkbox_off.svg) no-repeat;}
+.check_basic:checked:before{background-image: url(../images/common/bg_input_checkbox_on.svg);}
+
+/*** input radio ***/
+.radio_basic{width: 30px;height: 30px;border: 0;cursor: pointer;}
+.radio_basic:before{content: '';display: inline-block;width: 30px;height: 30px;background: url(../images/common/bg_input_radio_off.svg) no-repeat;}
+.radio_basic:checked:before{background-image: url(../images/common/bg_input_radio_on.svg);}
