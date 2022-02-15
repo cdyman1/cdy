@@ -201,8 +201,8 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .whoweare .con_m{display: block;}
 
     .orgnization_box { margin-top: 80px; }
-    .orgnization_box .orgnization>div { justify-content: flex-start; gap: 0 20px; }
-    .orgnization_box .orgnization>div div { position: relative; width: 50%; }
+    .orgnization_box .orgnization>div { justify-content: space-between; gap: 0; }
+    .orgnization_box .orgnization>div div { position: relative; width: 47%; }
     .orgnization_box .orgnization>div div .con { font-size: 14px; transform: translateX(50%); }
     .orgnization_box .orgnization>div span { margin-bottom: 20px; height: 45px; line-height: 45px; }
     .orgnization_box .orgnization .ceo span { margin-bottom: 20px; }
@@ -214,10 +214,10 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .history_box { display: none; }
     .history_box_m{display: block; margin-top: 60px;}
     .history_box_m .history_m{height: 400px; background: url('../images/whoweare/bg_history.png') no-repeat;background-position: 70px top;}
-    .history_box_m .swiper-slide{display: flex;align-items: center;gap: 0 60px;position: relative;}
+    .history_box_m .swiper-slide{display: flex;align-items: center;position: relative;}
     .history_box_m .swiper-slide::before { content: ''; position: absolute; left: 62px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border: 6px solid #43c5db; background-color: #fff; border-radius: 50px; box-sizing: border-box; }
     .history_box_m .txt{font-size: 20px; font-weight: 700; color: #43C5DB;}
-    .history_box_m .list{}
+    .history_box_m .list{margin-left: 60px;}
     .history_box_m .list li{position: relative; padding-left: 10px; line-height: 22px; font-size: 12px; font-weight: 400; color: #333;}
     .history_box_m .list li::after { content: '';display: block; position:absolute; top: 9px; left: 0; width: 3px;height: 3px; border-radius: 50%; background-color: #666; }
     .history_box_m .control_btn_m{display: block; margin-top: 20px;text-align: center;}
