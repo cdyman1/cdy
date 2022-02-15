@@ -101,7 +101,7 @@
     .portfolio .port_list .port_box:nth-of-type(even) .port_img{order: 1;}
     .portfolio .port_list .port_box:nth-of-type(even) .port_info{order: 2;padding-right:0;}
 
-    .portfolio .port_list .port_box .port_img h3{display: block; position:absolute; top: 10%; left: 5%; font-size: 40px; color: #333;}
+    .portfolio .port_list .port_box .port_img h3{display: block; position:absolute; top: 10%; left: 5%; font-family: 'Gotham'; font-size: 40px; color: #333;}
     .portfolio .port_list .port_box .port_img img:nth-child(2){display: none;}
     .portfolio .port_list .port_box .port_img img:nth-child(3){display: block;}
 
@@ -154,6 +154,8 @@
     .portfolio .clients_list .card .box img{transform: scale(.9);}
 
     .portfolio_layer .close_layer{top:16px; width: 28px; height: 28px; right:20px;}
+    .portfolio_layer .close_layer img:first-child{display: none;}
+    .portfolio_layer .close_layer img:last-child{display: block;}
     
     .portfolio_layer .progress{height:2px;}
     .portfolio_layer .progress .progress_bar{height:2px;}
