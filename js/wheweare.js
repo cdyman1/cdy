@@ -20,6 +20,12 @@ var historySlider = new Swiper('.history_item .swiper-container', {
         nextEl: '.history_item .next',
         prevEl: '.history_item .prev',
     },
+    breakpoints: {
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+    },
     on: {
         slideChangeTransitionStart: function () {
             let tabEl =document.querySelectorAll('.history_tabs .tab');
@@ -61,3 +67,43 @@ function tabRemoveActive() {
     let tabActive = document.querySelector('.tab.active');
     if (tabActive !== null) tabActive.classList.remove('active');
 }
+
+
+var historyMobileSlider = new Swiper('.history_m', {
+    direction: "vertical",
+    autoHeight: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: '.control_btn_m .next',
+        prevEl: '.control_btn_m .prev',
+    },
+    breakpoints: {
+        1024: {
+        },
+    },
+});
+
+
+var browserWidth = $(window).outerWidth();
+var mySwiper = undefined;
+
+function initSwiper() {
+
+  if (browserWidth < 1024 && mySwiper == undefined) {
+    mySwiper = new Swiper(".ci_dec_slide", {
+      slidesPerView: 1.5,
+      spaceBetween: 60,
+    });
+  } else if (browserWidth >= 1024 && mySwiper != undefined) {
+    mySwiper.destroy();
+    mySwiper = undefined;
+  }
+}
+
+initSwiper();
+
+$(window).on('resize', function () {
+    browserWidth = $(window).width();
+  initSwiper();
+});
