@@ -115,7 +115,7 @@
 
     .portfolio_layer .cate_tit{font-size:30px;}
     .portfolio_layer .close_layer{top:calc(9%); width: 32px; height: 32px; right:10px;}
-    .portfolio_layer .close_layer img{width: 100%;}
+    .portfolio_layer .close_layer img,.portfolio_layer .close_layer svg{width: 100%;}
     .portfolio_layer .portfolio_info{margin-top:30px;}
     .portfolio_layer .portfolio_info .tit{font-size:26px;line-height: 34px;}
     .portfolio_layer .portfolio_info .list{margin-top:10px;}
