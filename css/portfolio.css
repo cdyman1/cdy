@@ -154,8 +154,6 @@
     .portfolio .clients_list .card .box img{transform: scale(.9);}
 
     .portfolio_layer .close_layer{top:16px; width: 28px; height: 28px; right:20px;}
-    .portfolio_layer .close_layer img:first-child{display: none;}
-    .portfolio_layer .close_layer img:last-child{display: block;}
     
     .portfolio_layer .progress{height:2px;}
     .portfolio_layer .progress .progress_bar{height:2px;}
