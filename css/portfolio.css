@@ -194,4 +194,5 @@
     .portfolio_layer .port_area .port_wrap{-ms-overflow-style:none; scrollbar-width:none;}
     .portfolio_layer .port_area .port_wrap::-webkit-scrollbar{display:none;}
 
+    .portfolio .clients_list .tolltip{display: none;}
 }

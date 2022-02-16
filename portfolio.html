@@ -165,7 +165,7 @@
                 </div>
             </div>
             <div class="port_area">
-                <div class="port_item area_parent">
+                <div class="port_item area_parent han">
                     <div class="cate_hd">
                         <a href="javascript:void(0);" class="back_list show_list"><img src="./images/common/btn_back.svg" alt="이전 페이지" /></a>
                         <span class="tit">FINANCE</span>
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="port_item area_parent">
+                <div class="port_item area_parent teslit">
                     <div class="cate_hd">
                         <a href="javascript:void(0);" class="back_list show_list"><img src="./images/common/btn_back.svg" alt="이전 페이지" /></a>
                         <span class="tit">FINANCE</span>
@@ -1260,5 +1260,30 @@
 <script src="./js/lib/aos.js"></script>
 <script src="./js/common.js"></script>
 <script src="./js/portfolio.js"></script>
+
+<script>
+
+
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    $(function () {
+
+        var uid = getParameterByName('portName');
+        if(uid == "han") {
+            $(".cate_finance").show();
+            $(".cate_finance .port_area").show();
+            $(".cate_finance .port_area .han").show();
+        } else if(uid == "teslit") {
+            $(".cate_finance").show();
+            $(".cate_finance .port_area").show();
+            $(".cate_finance .port_area .teslit").show();
+        }
+        
+    });
+</script>
 
 </html>

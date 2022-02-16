@@ -304,6 +304,7 @@
   .client_area .card_box:nth-child(n+7){display: none;}
   .client_area .client_list .card{width:150px; height:150px; line-height:150px;}
   .client_area .client_list .card .box img{transform: scale(.9);}
+  .client_area .client_list .tolltip{display: none;}
 
   .philosophy_area{margin:80px auto 0; padding:0 20px 30px;}
   .philosophy_area .phil_text01{font-size:30px;}

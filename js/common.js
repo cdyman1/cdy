@@ -46,3 +46,32 @@ $(window).on("load", function(){
         gsap.to(("#header"), .7, {top:-120, ease:Power3.easeOut});
     }
 });
+
+// var ww = $(window).width();
+// function menuFunc() {
+//     $(".nav_list>li>a").click(function(e){
+//         $(this).siblings($(".m_list")).toggleClass("on");
+//         if(ww <= 1024) {
+//             if(!$(this).hasClass("first")) {
+//                 e.preventDefault();
+//             }
+//             $(this).siblings($(".m_list")).stop().slideDown();
+//             $(this).parent().siblings().find(".m_list:visible").stop().slideUp();
+//         } else {
+//             if(!$(this).hasClass("first")) {
+//                 e.unbind();
+//             }
+//         }
+//     });
+// }
+// menuFunc();
+
+// $(window).on('resize',function(){
+//     ww = $(window).width();
+//     if (ww <= 1024) {
+//         $(".nav_list>li>.m_list").hide();
+//     } else {
+//         $(".nav_list>li>.m_list").show();
+//     }
+//     menuFunc();
+// }); 

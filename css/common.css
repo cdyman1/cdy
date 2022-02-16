@@ -60,7 +60,7 @@ input,textarea{font-family:'Noto Sans KR',sans-serif;color: #333;outline:0;}
 #header .nav_area .nav_list li a{color:#fff; white-space:nowrap; transition:color .15s ease;}
 #header .nav_area .nav_list li a:hover{color:#19254c;}
 #header .nav_area .nav_list>li>a{font-size:40px; font-weight:700;}
-#header .nav_area .nav_list>li>ul{margin-top:30px;}
+#header .nav_area .nav_list>li>ul{display:block;margin-top:30px;}
 #header .nav_area .nav_list>li>ul>li{display:block; margin-top:2px;}
 #header .nav_area .nav_list>li>ul>li>a{line-height:50px; font-size:22px; font-weight:500;}
 #header .nav_area .nav_list>li>ul>li>ul>li{position:relative; padding-left:25px;}
