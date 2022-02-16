@@ -132,6 +132,30 @@ $(window).on("resize", function () {
     scrollProgress();
 });
 
+// 포트폴리오 레이어 호출
+function getPortName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function showCateFinance() {
+    $(".cate_finance").show();
+    $(".cate_finance .port_area").show();
+}
+
+$(function () {
+    var portName = getPortName('portName');
+    if(portName == "han") {
+        showCateFinance();
+        $(".cate_finance .port_area .han").show();
+    } else if(portName == "teslit") {
+        showCateFinance();
+        $(".cate_finance .port_area .teslit").show();
+    }
+});
+
 // 클라이언트 모션
 function cardFlip() {
     if( $(".clients_list").length > 0  ) { 
@@ -172,12 +196,4 @@ $(document).ready(function () {
         };
     });
     
-    // AOS 설정
-    AOS.init({
-        easing: "ease",
-        duration: 1000,
-        offset: 150,
-        delay: 150,
-        once: "false",
-    });
 });

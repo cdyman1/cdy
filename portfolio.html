@@ -43,8 +43,8 @@
         </nav>
         <!-- gnb end -->
         <div class="util_box">
-            <a href="#"><img src="./images/common/btn_top_company.png" alt="회사 소개서 받기" /></a>
-            <a href="#"><img src="./images/common/btn_top_company.svg" alt="회사 소개서 받기" /></a>
+            <a href="./file/siana.pptx" download=""><img src="./images/common/btn_top_company.png" alt="회사 소개서 받기" /></a>
+            <a href="./file/siana.pptx" download=""><img src="./images/common/btn_top_company.svg" alt="회사 소개서 받기" /></a>
             <a href="./contactus.html"><img src="./images/common/btn_top_contact.png" alt="사업문의" /></a>
         </div>
         <div class="btn_menu_box">
@@ -59,28 +59,28 @@
             <div class="nav_list_box">
                 <ul class="nav_list">
                     <li>
-                        <a href="./portfolio.html">Portfolio</a>
+                        <a class="first" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li>
                         <a href="./whoweare.html">Who we are</a>
-                        <ul>
-                            <li><a href="#">비전 및 가치</a></li>
-                            <li><a href="#">연혁</a></li>
-                            <li><a href="#">CI / BI</a></li>
+                        <ul class="m_list">
+                            <li><a href="./whoweare.html#vision">비전 및 가치</a></li>
+                            <li><a href="./whoweare.html#history">연혁</a></li>
+                            <li><a href="./whoweare.html#ci">CI / BI</a></li>
                             <li>
-                                <a href="#">전문부서</a>
+                                <a href="./whoweare.html#department">전문부서</a>
                                 <ul>
-                                    <li><a href="#">기획</a></li>
-                                    <li><a href="#">디자인</a></li>
-                                    <li><a href="#">FRONT-END 개발</a></li>
-                                    <li><a href="#">BACK-END 개발</a></li>
+                                    <li><a href="./whoweare.html#department01">기획</a></li>
+                                    <li><a href="./whoweare.html#department02">디자인</a></li>
+                                    <li><a href="./whoweare.html#department03">FRONT-END 개발</a></li>
+                                    <li><a href="./whoweare.html#department04">BACK-END 개발</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="./whatwedo.html">What we do</a>
-                        <ul>
+                        <ul class="m_list">
                             <li><a href="#">SI</a></li>
                             <li><a href="#">Agency</a></li>
                             <li><a href="#">Cross Functional Team</a></li>
@@ -88,14 +88,14 @@
                     </li>
                     <li>
                         <a href="./contactus.html">Contact us</a>
-                        <ul>
+                        <ul class="m_list">
                             <li><a href="#">문의</a></li>
                             <li><a href="#">오시는 길</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="./recruit.html">Recruit</a>
-                        <ul>
+                        <ul class="m_list">
                             <li><a href="#">SIANA Culture</a></li>
                             <li><a href="#">채용안내</a></li>
                         </ul>
@@ -622,7 +622,7 @@
             <!-- portfolio end -->
             <!-- clients start -->
             <!-- 타이틀 -->
-            <div class="tit_box">
+            <div id="clients" class="tit_box">
                 <h2 data-aos="fade-up">CLIENTS</h2>
                 <span class="cnt_desc" data-aos="fade-up" data-aos-delay="250">We grow together with our trusted parthers, make an impact.</span>
             </div>
@@ -1260,30 +1260,5 @@
 <script src="./js/lib/aos.js"></script>
 <script src="./js/common.js"></script>
 <script src="./js/portfolio.js"></script>
-
-<script>
-
-
-    function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-            results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
-    $(function () {
-
-        var uid = getParameterByName('portName');
-        if(uid == "han") {
-            $(".cate_finance").show();
-            $(".cate_finance .port_area").show();
-            $(".cate_finance .port_area .han").show();
-        } else if(uid == "teslit") {
-            $(".cate_finance").show();
-            $(".cate_finance .port_area").show();
-            $(".cate_finance .port_area .teslit").show();
-        }
-        
-    });
-</script>
 
 </html>

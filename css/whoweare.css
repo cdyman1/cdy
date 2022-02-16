@@ -32,7 +32,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
 .whoweare .reveal.reveal_right:before {transform-origin: left;}
 .whoweare .reveal.active:before{width:0;transition-delay: 0.5s;}
 
-
 .whoweare .wwa_boxCon .wd_box > .teamBox_img {margin-top:150px;}
 .whoweare .wwa_boxCon .wd_box > .teamBox_list > .teamBox_l {margin-top:50px;}
 .whoweare .wwa_boxCon .wd_box > .teamBox_list > .teamBox_l > h4 {font-family:'Gotham Bold'; font-weight:700; font-style:normal; font-size:30px; line-height:38px; line-height:38px; letter-spacing:-0.03em; text-align:center; color:#333333;}
@@ -43,10 +42,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
 .whoweare .wwa_boxCon .wd_box > .teamBox_list > .teamBox_l > .teamBox_txt .teamBox_circle.circle_left {left:0;}
 .whoweare .wwa_boxCon .wd_box > .teamBox_list > .teamBox_l > .teamBox_txt .teamBox_circle.circle_right {right:0;}
 
-
-
-
-
 /* orgnization */
 /* .orgnization_box { width: 100%; margin-top: 300px; }
 .orgnization_box table { width: 100%; margin: 0 auto; }
@@ -55,7 +50,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
 .orgnization_box table .hq p { font-weight: 700; border-color: #19254C; }
 .orgnization_box table .ceo p { margin-bottom: 80px; color: #fff; border-color: #19254C; background: #19254C; }
 .orgnization_box table .institute_affiliated p, .orgnization_box table .general_business p { margin-bottom: 80px; color: #fff; border-color: #43C5DB; background: #43C5DB; } */
-
 
 .orgnization_box { width: 100%; margin-top: 300px; }
 .orgnization_box .orgnization { display: flex; flex-direction: column; width: 100%; margin: 0 auto; }
@@ -92,7 +86,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
 .history_box .history_content .history_item .control_btns span.swiper-button-disabled { opacity: .2; }
 .history_box .history_content .history_item .control_btns .next { margin-left: 10px; transform: rotate(180deg); }
 
-
 /* ci */
 .ci_box { margin-top: 300px; }
 .ci_box .ci_vh { display: flex; justify-content: space-between; gap: 0 40px; }
@@ -108,7 +101,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
 .ci_box .ci_dec ul { display: none; }
 .ci_box .ci_dec_list_m{ display: none; }
 
-
 /* prepessional department */
 .prepessional_box { margin-top: 300px; }
 .prepessional_box>ul { display: flex; flex-wrap: wrap; gap: 90px 36px; color: #333; }
@@ -123,7 +115,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .ci_box .ci_vh img { width: 100%; max-width: 700px; margin: 0 auto; }
 
 }
-
 
 @media screen and (max-width:1450px) {
     .whoweare .wwa_box1 .wwa_point>ul { flex-direction: column; gap: 90px 0; margin-bottom: 60px; }
@@ -154,7 +145,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .whoweare .wwa_boxCon .wd_box > .teamBox_list > .teamBox_l > .teamBox_txt .teamBox_circle.circle_left {left:25px;}
     .whoweare .wwa_boxCon .wd_box > .teamBox_list > .teamBox_l > .teamBox_txt .teamBox_circle.circle_right {right:25px;}
 
-
     .orgnization_box { margin-top: 150px; }
     .orgnization_box .orgnization { justify-content: space-around; }
     .orgnization_box .orgnization>div { justify-content: center; }
@@ -179,7 +169,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .prepessional_box>ul { flex-direction: column; gap: 0 0; }
     .prepessional_box>ul>li { position: relative ;padding: 40px 0 60px; flex-basis: calc(50% - 40px); flex-direction: column; border-top: 1px solid #ddd; }
 
-
 }
 
 @media screen and (max-width:900px) {
@@ -189,7 +178,6 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
 @media screen and (max-width:700px) {
     .orgnization_box .orgnization>div span { font-size: 16px; }
 }
-
 
 @media screen and (max-width:600px) {
     section h2 { margin-bottom: 40px; line-height: 32px; font-size: 24px; }

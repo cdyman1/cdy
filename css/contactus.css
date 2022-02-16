@@ -35,7 +35,7 @@
 .contact_us .inquire .inquire_btn{margin-top: 50px;text-align: center;}
 
 /***** way to come *****/
-.contact_us .waytocome{margin-top: 300px;}
+.contact_us .waytocome{margin-top: 200px;}
 .contact_us .waytocome .company_info{display: flex; margin-top: 60px;}
 .contact_us .waytocome .company_info .map{width: calc(100% - 615px); min-width: 600px; }
 .contact_us .waytocome .company_info .map img{width: 100%;}
@@ -72,7 +72,7 @@
 
 @media screen and (max-width:1024px) {
     .contact_us{width: auto; max-width:885px; padding:0 30px;}
-    .contact_us .waytocome{margin-top: 150px;}
+    .contact_us .waytocome{margin-top: 90px;}
     .contact_us .waytocome .company_info{flex-direction: column; margin-top: 50px;}
     .contact_us .waytocome .company_info .map{width: auto; max-width: 825px; min-width: auto; height: auto; margin: 0 auto;}
 
@@ -81,7 +81,7 @@
 
 @media screen and (max-width:600px) {
     .contact_us{padding:0 20px;}
-    .contact_us .waytocome{margin-top: 80px;}
+    .contact_us .waytocome{margin-top: 40px;}
     .contact_us .waytocome .company_info{margin-top: 30px;}
 
     .contact_us .waytocome .company_info dl{margin-top: 10px;}

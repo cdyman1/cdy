@@ -133,10 +133,4 @@ function cardFlip() {
 
 $(document).ready(function () {
     cardFlip();
-    AOS.init({
-        easing: "ease",
-        duration: 1000,
-        offset: 200,
-        delay:150
-    });
 });

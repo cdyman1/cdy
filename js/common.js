@@ -47,6 +47,17 @@ $(window).on("load", function(){
     }
 });
 
+$(document).ready(function () {
+    // AOS 설정
+    AOS.init({
+        easing: "ease",
+        duration: 1000,
+        offset: 150,
+        delay: 150,
+        once: "false",
+    });
+});
+
 // var ww = $(window).width();
 // function menuFunc() {
 //     $(".nav_list>li>a").click(function(e){

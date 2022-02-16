@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
     <title>siana</title>
     <meta name="author" content="siana">
     <meta name="keywords" content="">
@@ -29,7 +30,6 @@
     <a href="#contents">본문 바로가기</a>
 </div>
 <div id="wrap">
-    <!-- header start -->
     <header id="header">
         <h1><a href="./index.html"><img src="./images/common/logo.png" alt="시아나" /></a></h1>
         <!-- gnb start -->
@@ -44,7 +44,8 @@
         </nav>
         <!-- gnb end -->
         <div class="util_box">
-            <a href="#"><img src="./images/common/btn_top_company.png" alt="회사 소개서 받기" /></a>
+            <a href="./file/siana.pptx" download=""><img src="./images/common/btn_top_company.png" alt="회사 소개서 받기" /></a>
+            <a href="./file/siana.pptx" download=""><img src="./images/common/btn_top_company.svg" alt="회사 소개서 받기" /></a>
             <a href="./contactus.html"><img src="./images/common/btn_top_contact.png" alt="사업문의" /></a>
         </div>
         <div class="btn_menu_box">
@@ -59,28 +60,28 @@
             <div class="nav_list_box">
                 <ul class="nav_list">
                     <li>
-                        <a href="./portfolio.html">Portfolio</a>
+                        <a class="first" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li>
                         <a href="./whoweare.html">Who we are</a>
-                        <ul>
-                            <li><a href="#">비전 및 가치</a></li>
-                            <li><a href="#">연혁</a></li>
-                            <li><a href="#">CI / BI</a></li>
+                        <ul class="m_list">
+                            <li><a href="./whoweare.html#vision">비전 및 가치</a></li>
+                            <li><a href="./whoweare.html#history">연혁</a></li>
+                            <li><a href="./whoweare.html#ci">CI / BI</a></li>
                             <li>
-                                <a href="#">전문부서</a>
+                                <a href="./whoweare.html#department">전문부서</a>
                                 <ul>
-                                    <li><a href="#">기획</a></li>
-                                    <li><a href="#">디자인</a></li>
-                                    <li><a href="#">FRONT-END 개발</a></li>
-                                    <li><a href="#">BACK-END 개발</a></li>
+                                    <li><a href="./whoweare.html#department01">기획</a></li>
+                                    <li><a href="./whoweare.html#department02">디자인</a></li>
+                                    <li><a href="./whoweare.html#department03">FRONT-END 개발</a></li>
+                                    <li><a href="./whoweare.html#department04">BACK-END 개발</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="./whatwedo.html">What we do</a>
-                        <ul>
+                        <ul class="m_list">
                             <li><a href="#">SI</a></li>
                             <li><a href="#">Agency</a></li>
                             <li><a href="#">Cross Functional Team</a></li>
@@ -88,14 +89,14 @@
                     </li>
                     <li>
                         <a href="./contactus.html">Contact us</a>
-                        <ul>
+                        <ul class="m_list">
                             <li><a href="#">문의</a></li>
                             <li><a href="#">오시는 길</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="./recruit.html">Recruit</a>
-                        <ul>
+                        <ul class="m_list">
                             <li><a href="#">SIANA Culture</a></li>
                             <li><a href="#">채용안내</a></li>
                         </ul>
@@ -105,8 +106,6 @@
         </div>
         <!-- nav all end -->
     </header>
-    <!-- header end -->
-    
     <!-- contents start -->
     <div id="contents" class="contents">
         <div class="recruit">
@@ -114,56 +113,56 @@
             <div class='culture_con'>
 
                 <div class="tit_box">
-                    <h2>RECRUIT</h2>
-                    <span class="cnt_desc">시아나는 다양한 분야의 전문가들을 상시 모집하고 있습니다.</span>
-                </div>
+                    <h2 data-aos="fade-up">RECRUIT</h2>
+                    <span class="cnt_desc" data-aos="fade-up" data-aos-delay="250">시아나는 다양한 분야의 전문가들을 <br class="m_br">상시 모집하고 있습니다.</span>
+                </div>  
 
                 <div class="culture_content">
-                    <h2>SIANA CULTURE</h2>
+                    <h2 data-aos="fade-up">SIANA CULTURE</h2>
                     <ul class="clfix">
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture1.png" alt="">
                             </div>
                             <h4>근무시간 10~6시</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture2.png" alt="">
                             </div>
                             <h4>생일직원 축하혜택</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture3.png" alt="">
                             </div>
                             <h4>상시 운영 스낵바</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture4.png" alt="">
                             </div>
                             <h4>장기 근속 격려제도</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture5.png" alt="">
                             </div>
                             <h4>우수사원 칭찬제도</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture6.png" alt="">
                             </div>
                             <h4>실력 계발 교육비 지원</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture7.png" alt="">
                             </div>
                             <h4>눈치없는 휴가 사용</h4>
                         </li>
-                        <li class="culture_box culture_box1">
+                        <li class="culture_box culture_box1" data-aos="fade-up">
                             <div>
                                 <img src="./images/recruit/culture8.png" alt="">
                             </div>
@@ -180,114 +179,57 @@
                         WHATEVER<br />
                         YOUR PASSION,
                     </span>
-                    <span class="txt02" data-aos="fade-right">There is place for you here.</span>
-                    <p class="txt03" data-aos="fade-left">
+                    <span class="txt02" data-aos="fade-up">There is place for you here.</span>
+                    <p class="txt03" data-aos="fade-up">
                         우리는 모든 사원에게 평등한 기회를 제공하고 개인 및 조직의 성장과 발전을 추구합니다.<br />
                         비즈니스 및 기술 분야의 인재를 상시 채용하고 있습니다.<br />
                         관심 있는 분들의 지원을 기다립니다.
                     </p>
+                </div>
 
-                    <div class="recruit_list">
-                        <ul class=" clfix">
-                            <li class="re_l1">
-                                <span>기획</span>
-                            </li>
-                            <li class="re_l2">
-                                <span>디자인</span>
-                            </li>
-                            <li class="re_l3">
-                                <span>FRONT-END 개발</span>
-                            </li>
-                            <li class="re_l4">
-                                <span>개발</span>
-                            </li>
-                        </ul>
+                <div class="recruit_bg"></div>
+            </div>
 
-                        <div class="re_listbox recruit_plan clfix" style="display: none;">
-                            <div class="re_listboxL">
-                                <span>기획</span>
-                            </div>
-                            <div class="re_listboxR">
-                                <h4>PLANNER</h4>
-                                <p>
-                                    데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의 논리를 가진 기획<br>
-                                    자를 기다립니다. 데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의<br>
-                                    논리를 가진 기획자를 기다립니다. 이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에<br>
-                                    기반한 설득의 논리를 가진 기획자를 기다립니다.데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰<br>
-                                    줄 알며,  기술에 기반한 설득의 논리를 가진 기획자를 기다립니다.
-                                </p>
-                            </div>
+            <div class="recruit_list">
+                <ul class="clfix">
+                    <li class="re_l1" data-aos="fade-up">
+                        <span>기획</span>
+                    </li>
+                    <li class="re_l2" data-aos="fade-up">
+                        <span>디자인</span>
+                    </li>
+                    <li class="re_l3" data-aos="fade-up">
+                        <span>FRONT-END 개발</span>
+                    </li>
+                    <li class="re_l4" data-aos="fade-up">
+                        <span>개발</span>
+                    </li>
+                </ul>
 
-                            <div class="recruit_btn">
-                                <a href="javascript:void(0)">지원서 작성하기</a>
-                            </div>
-
-                            <a class="recruit_close" href="javascript:void(0)">CLOSE</a>
-                        </div>
-<!--
-                        <div class="re_listbox recruit_design clfix">
-                            <div class="re_listboxl">
-                                디자인
-                            </div>
-                            <div class="re_listboxR">
-                                <h4>PLANNER</h4>
-                                <p>
-                                    데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의 논리를 가진 기획<br>
-                                    자를 기다립니다. 데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의<br>
-                                    논리를 가진 기획자를 기다립니다. 이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에<br>
-                                    기반한 설득의 논리를 가진 기획자를 기다립니다.데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰<br>
-                                    줄 알며,  기술에 기반한 설득의 논리를 가진 기획자를 기다립니다.
-                                </p>
-                            </div>
-
-                            <div class="recruit_btn">
-                                <a href="javascript:void(0)">지원서 작성하기</a>
-                            </div>
-
-                        </div>
-
-                        <div class="re_listbox recruit_front clfix">
-                            <div class="re_listboxl">
-                                FRONT-END 개발
-                            </div>
-                            <div class="re_listboxR">
-                                <h4>PLANNER</h4>
-                                <p>
-                                    데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의 논리를 가진 기획<br>
-                                    자를 기다립니다. 데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의<br>
-                                    논리를 가진 기획자를 기다립니다. 이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에<br>
-                                    기반한 설득의 논리를 가진 기획자를 기다립니다.데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰<br>
-                                    줄 알며,  기술에 기반한 설득의 논리를 가진 기획자를 기다립니다.
-                                </p>
-                            </div>
-
-                            <div class="recruit_btn">
-                                <a href="javascript:void(0)">지원서 작성하기</a>
-                            </div>
-                        </div>
-
-                        <div class="re_listbox recruit_back clfix">
-                            <div class="re_listboxl">
-                                개발
-                            </div>
-                            <div class="re_listboxR">
-                                <h4>PLANNER</h4>
-                                <p>
-                                    데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의 논리를 가진 기획<br>
-                                    자를 기다립니다. 데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의<br>
-                                    논리를 가진 기획자를 기다립니다. 이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에<br>
-                                    기반한 설득의 논리를 가진 기획자를 기다립니다.데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰<br>
-                                    줄 알며,  기술에 기반한 설득의 논리를 가진 기획자를 기다립니다.
-                                </p>
-                            </div>
-
-                            <div class="recruit_btn">
-                                <a href="javascript:void(0)">지원서 작성하기</a>
-                            </div>
-                        </div>
-                    -->
+                <div class="re_listbox recruit_plan clfix">
+                    <div class="re_listboxL">
+                        <span>기획</span>
+                    </div>
+                    <div class="re_listboxR">
+                        <h4>PLANNER</h4>
+                        <p>
+                            데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의 논리를 가진 기획<br>
+                            자를 기다립니다. 데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에 기반한 설득의<br>
+                            논리를 가진 기획자를 기다립니다. 이터를 기반으로 분석하고, 크레이티브를 언어로 다룰줄 알며,  기술에<br>
+                            기반한 설득의 논리를 가진 기획자를 기다립니다.데이터를 기반으로 분석하고, 크레이티브를 언어로 다룰<br>
+                            줄 알며,  기술에 기반한 설득의 논리를 가진 기획자를 기다립니다.
+                        </p>
                     </div>
 
+                    <div class="recruit_btn">
+                        <a href="javascript:void(0)">지원서 작성하기</a>
+                    </div>
+
+                    <a class="recruit_close" href="javascript:void(0)"><img src="./images/recruit/btn_close.svg" alt="닫기"></a>
+                </div>
+            </div>
+
+              <!--
                     <div class="recruit_form">
                         <h4>RECRUIT</h4>
 
@@ -388,17 +330,19 @@
                             </div>
                         </form>
                     </div>
-
-                </div>
-
-                <div class="recruit_bg"></div>
-            </div>
+                -->
 
         </div>
     </div>
-
     <!-- footer start -->
     <footer>
+        <div class="footer_link">
+            <div class="footer_link_inner">
+                <span>Let’s talk about your business needs</span>
+                <span>어떻게<br />도와드릴까요?</span>
+                <a href="./contactus.html" class="btn_basic confirm">문의하기<i></i></a>
+            </div>
+        </div>
         <div class="footer_top">
             <ul class="link_ft">
                 <li><a href="#">이용약관</a></li>
@@ -412,7 +356,7 @@
                     <address>4F, 20, Gangnam-daero 118-gil, Gangnam-gu, Seoul, Republic of Korea</address>
                     <span>Copyright(C) 2021 SIANA. All rights reserved.</span>
                 </div>
-                <div><img src="./images/common/logo.png" alt="시아나"></div>
+                <div class="logo_bt"><img src="./images/common/logo.png" alt="시아나"></div>
             </div>
         </div>
     </footer>
@@ -426,6 +370,5 @@
 <script src="./js/lib/swiper.min.js"></script>
 <script src="./js/lib/aos.js"></script>
 <script src="./js/common.js"></script>
-<script src="./js/main.js"></script>
 
 </html>
