@@ -216,8 +216,12 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     
     .history_box { display: none; }
     .history_box_m{display: block; margin-top: 60px;}
-    .history_box_m .history_m{height: 400px; background: url('../images/whoweare/bg_history.png') no-repeat;background-position: 70px top;}
-    .history_box_m .swiper-slide{display: flex;align-items: center;position: relative;}
+    /* .history_box_m .history_m{background: url('../images/whoweare/bg_history.png') no-repeat;background-position: 70px top;} */
+    .history_box_m .history_m{position: relative;}
+    .history_box_m .history_m::before{content: '';display: block; position: absolute; top: 0; left: 69px;border-bottom: 7px solid #ddd; border-left: 3.5px solid transparent; border-right: 3.5px solid transparent;}
+    .history_box_m .history_m::after{content: '';display: block; position: absolute; bottom: 0; left: 69px; border-top: 7px solid #ddd; border-left: 3.5px solid transparent; border-right: 3.5px solid transparent;}
+    .history_box_m .history_m .bar{position: absolute; left: 72px; top: 0; bottom: 0; width: 1px; height: 100%; background-color: #ddd;}
+    .history_box_m .swiper-slide{overflow-y: hidden; display: flex;align-items: center;position: relative;}
     .history_box_m .swiper-slide::before { content: ''; position: absolute; left: 62px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border: 6px solid #43c5db; background-color: #fff; border-radius: 50px; box-sizing: border-box; }
     .history_box_m .txt{font-size: 20px; font-weight: 700; color: #43C5DB;}
     .history_box_m .list{margin-left: 60px;}
@@ -225,9 +229,9 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .history_box_m .list li::after { content: '';display: block; position:absolute; top: 9px; left: 0; width: 3px;height: 3px; border-radius: 50%; background-color: #666; }
     .history_box_m .control_btn_m{display: block; margin-top: 20px;text-align: center;}
     .history_box_m .control_btn {  }
-    .history_box_m .control_btn_m span { display: inline-block; width: 32px; height: 32px; background-size: contain; }
-    .history_box_m .control_btn_m span.prev {display: none; }
-    .history_box_m .control_btn_m span.next {background: url('../images/whoweare/btn_history_down.svg') no-repeat; }
+    .history_box_m .control_btn_m span { display: inline-block; width: 32px; height: 32px; margin: 0 2px; background-size: contain; }
+    .history_box_m .control_btn_m span.prev {display: none; background: url('../images/whoweare/btn_history_up.png') no-repeat;}
+    .history_box_m .control_btn_m span.next {background: url('../images/whoweare/btn_history_down.png') no-repeat; }
 
     .ci_box { margin-top: 80px; }
     .ci_box .ci_vh { gap: 0; }
