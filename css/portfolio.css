@@ -139,7 +139,7 @@
     .portfolio .port_list{margin-top:40px;}
     .portfolio .port_list .port_box{margin-bottom:40px;}
 
-    .portfolio .port_list .port_box .port_img h3{top: 50%; left: 50%; font-size: 26px; transform: translate(-50%,-50%);}
+    .portfolio .port_list .port_box .port_img h3{top: 50%; left: 50%; font-size: 26px; transform: translate(-50%,-50%); white-space: nowrap;}
     .portfolio .port_list .port_box .port_img img:nth-child(3){display: none;}
     .portfolio .port_list .port_box .port_img img:nth-child(4){display: block;}
 
