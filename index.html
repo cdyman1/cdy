@@ -556,8 +556,8 @@
     <footer>
         <div class="footer_top">
             <ul class="link_ft">
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#" class="policy">개인정보이용방침</a></li>
+                <li><a href="javascript:popShow('#pop_notice');">이용약관</a></li>
+                <li><a href="javascript:popShow('#pop_privacy');" class="policy pop_privacy_show">개인정보이용방침</a></li>
                 <li><a href="#">제휴 문의</a></li>
             </ul>
         </div>
@@ -572,6 +572,35 @@
         </div>
     </footer>
     <!-- footer end -->
+    
+    <!-- layer start -->
+    <!-- 공지 -->
+    <!-- <div id="pop_notice" class="pop_notice_wrap">
+        <div class="pop_notice_inner">
+            팝업입니다.<br />
+            공지사항입니다.<br />
+            시아나입니다.
+            <div class="">
+                <span id="check"><input type="checkbox" value="checkbox" name="chkbox" id="chkday"/><label for="chkday">오늘 하루동안 보지 않기</label></span>
+                <span class="close_notice">Close</span>
+            </div>
+        </div>
+    </div> -->
+    <!-- 개인정보 -->
+    <div id="pop_privacy" class="pop_wrap">
+        <div class="pop_inner">
+            <button class="pop_close">CLOSE</button>
+            <div class="pop_top">
+                <h3>개인정보 수집 및 이용에 대한 안내</h3>
+            </div>
+            <div class="pop_cnt">
+                업무, 제휴, 채용 등 당사(“(주)시아나”, 이하 “당사”)에 또는 당사와 관련한 문의 시,
+이용자께서 입력하신 개인정보는 ‘정보통신망 이용촉진 및 정보보호 등에 관한 법률’에 따라 당사가 수집, 활용 시 본인의 동의를 얻어야 하는 정보입니다.
+입력하신 개인정보는 아래의 목적으로만 이용되고 이외의 용도로는 활용되지 않습니다.
+            </div>
+        </div>
+    </div>
+    <!-- layer end -->
 </div>
 </body>
 

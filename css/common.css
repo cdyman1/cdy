@@ -113,6 +113,16 @@ footer .footer_bottom .bottom_inner .info_ft span{display:block; margin-top:2px;
 .footer_link .footer_link_inner a:hover{background-color: #fff;}
 .footer_link .footer_link_inner a:before{height: 40px; background: #19254C !important; border-radius:20px;}
 
+/***** 레이어 *****/
+.pop_wrap{display: none; position:fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; padding: 20px; background-color:rgba(0,0,0,.5);}
+.pop_wrap .pop_inner{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: 1440px; background-color: #fff;}
+.pop_wrap .pop_inner .pop_close{position: absolute; top: 30px; right: 30px; cursor: pointer;}
+.pop_wrap .pop_inner .pop_top{display: flex; align-items: center; height: 50px; padding: 0 20px; background-color: #43C5DB;}
+.pop_wrap .pop_inner .pop_top h3{background-color: #43C5DB;}
+.pop_wrap .pop_inner .pop_cnt{overflow-y: auto; min-height: 200px; max-height: 500px; padding: 20px; word-break: keep-all;}
+
+.pop_notice_wrap{display: none; position:fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; padding: 20px; background-color:rgba(0,0,0,.5);}
+.pop_notice_wrap .pop_notice_inner{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: 1440px; background-color: #fff;}
 
 /***** 버튼 *****/
 .btn_basic{display: inline-block;position: relative; overflow:hidden; width: 200px; height: 60px;line-height: 58px; font-size: 18px;font-weight: 700; border: solid 1px #ddd; background-color: #fff; color: #333; text-align: center;border-radius: 30px;transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);}

@@ -39,6 +39,8 @@
 .contact_us .waytocome .company_info{display: flex; margin-top: 60px;}
 .contact_us .waytocome .company_info .map{width: calc(100% - 615px); min-width: 600px; }
 .contact_us .waytocome .company_info .map img{width: 100%;}
+.contact_us .waytocome .company_info .map .map_inner{position: relative; width: 100%;}
+.contact_us .waytocome .company_info .map .map_inner::before {content:''; display:block; padding-bottom:65.4%;}
 .contact_us .waytocome .company_info dl{margin-left: 35px;}
 .contact_us .waytocome .company_info dl dt{margin-top: 30px; font-size: 20px; font-weight: 700;}
 .contact_us .waytocome .company_info dl dt:first-child{margin-top: 0;}
@@ -74,7 +76,7 @@
     .contact_us{width: auto; max-width:885px; padding:0 30px;}
     .contact_us .waytocome{margin-top: 90px;}
     .contact_us .waytocome .company_info{flex-direction: column; margin-top: 50px;}
-    .contact_us .waytocome .company_info .map{width: auto; max-width: 825px; min-width: auto; height: auto; margin: 0 auto;}
+    .contact_us .waytocome .company_info .map{width: 100%; max-width: 825px; min-width: auto; margin: 0 auto;}
 
     .contact_us .waytocome .company_info dl{margin-left: 0; margin-top: 50px;}
 }
