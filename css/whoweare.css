@@ -230,8 +230,10 @@ section h2 { margin-bottom: 60px; font-family: 'Gotham'; font-size: 40px; font-w
     .history_box_m .control_btn_m span.next {background: url('../images/whoweare/btn_history_down.svg') no-repeat; }
 
     .ci_box { margin-top: 80px; }
+    .ci_box .ci_vh { gap: 0; }
     .ci_box .ci_vh .p{ display: none;}
     .ci_box .ci_vh .m{ display: block;}
+    .ci_box .ci_vh .m:last-child{ margin-top: 20px;}
     .ci_box .ci_dec br { display: block; }
     .ci_box .ci_dec div { margin: 20px 0 40px; padding: 30px; font-size: 14px; border-radius: 10px; }
     .ci_box .ci_dec .img_m { max-width: 170px; margin: 0 auto; }
