@@ -108,7 +108,7 @@ $(document).ready(function () {
         duration: 1000,
         offset: 150,
         delay: 150,
-        once: "false",
+        once: true,
     });
 });
 
