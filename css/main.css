@@ -84,7 +84,7 @@
 /*** company ***/
 .company_area{position:relative; width:100%; margin-top:400px;}
 .company_area:after{content:''; display:block; clear:both;}
-/* .company_area:before{content:""; display:block; position:absolute; left:0; top:0; width:100%; height:100%; background-color:rgba(0, 0, 0, .4); z-index:1;} */
+.company_area:before{content:""; display:block; position:absolute; left:0; top:0; width:100%; height:100%; background-color:rgba(0, 0, 0, .4); z-index:1;}
 .company_area .cnt_area{position:relative; max-width:1500px; padding: 0 30px; margin:0 auto; height:100%;}
 .company_area .cnt_area .cnt_pin{width:100%; position:relative; left:0; top:0; z-index:10;}
 
@@ -108,7 +108,7 @@
 .company_area .info_list .info_value .info_value_list li{margin-top:150px;}
 .company_area .info_list .info_value .info_value_list li:first-child{margin-top:0;}
 .company_area .info_list .info_value .info_value_list .m_v{display: none;}
-.company_area .info_list .info_value .info_value_list span{display:block; margin-top:30px; line-height:63px; font-family: 'Gotham'; font-size:30px; color:#fff;}
+.company_area .info_list .info_value .info_value_list span{display:block; margin-top:30px; line-height:63px; font-size:30px; color:#fff;}
 .company_area .info_list .info_value .info_value_list .text{line-height:28px; font-family:'Roboto'; font-size:20px; font-weight:400; color:#fff;}
 
 .video_area{position:absolute; top:0; left:0; width:100%; height:100vh;}
