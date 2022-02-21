@@ -11,13 +11,14 @@ gsap.to(".video_value", {
         pin: true,
     }
 });
+
 gsap.to(".cnt_pin", {
     scrollTrigger: {
         trigger: ".info_text",
         // markers: true,
         start: "top 160px",
         endTrigger : ".info_value_list li:last-child .text",
-        end: "bottom 30%",
+        end: "top 160px",
         scrub: 1,
         pin: true,
     }
