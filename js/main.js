@@ -64,38 +64,35 @@ gsap.to(".video_value", {
     }
 });
 
-$(".visual_slider .swiper-slide-active video").get(0).currentTime = 0;
-                setTimeout(function() {
-                    $(".visual_slider .swiper-slide-active video").get(0).play();
-                }, 800);
+$(".visual_slider .swiper-slide video").get(0).play();
 
 // 비주얼 슬라이드
-var visualSlide = new Swiper(".visual_slider", {
-    slidesPerView : 1,
-    speed : 2000,
-    loop: true,
-    allowTouchMove: false,
-    effect: "fade",
-    fadeEffect: {
-        crossFade: true
-    },
-    pagination: {
-        el: ".visual_slider .visual_paging",
-        clickable: true,
-        type: "bullets",
-    },
-    on : {
-        slideChangeTransitionStart: function(){
-            if($(".visual_slider .swiper-slide-active video").length != 0){
-                $(".visual_slider .swiper-slide").not(".swiper-slide-active, swiper-slide-duplicate-active").find("video").get(0).pause();
-                $(".visual_slider .swiper-slide-active video").get(0).currentTime = 0;
-                setTimeout(function() {
-                    $(".visual_slider .swiper-slide-active video").get(0).play();
-                }, 800);
-            }
-        },
-    }
-});
+// var visualSlide = new Swiper(".visual_slider", {
+//     slidesPerView : 1,
+//     speed : 2000,
+//     loop: true,
+//     allowTouchMove: false,
+//     effect: "fade",
+//     fadeEffect: {
+//         crossFade: true
+//     },
+//     pagination: {
+//         el: ".visual_slider .visual_paging",
+//         clickable: true,
+//         type: "bullets",
+//     },
+//     on : {
+//         slideChangeTransitionStart: function(){
+//             if($(".visual_slider .swiper-slide-active video").length != 0){
+//                 $(".visual_slider .swiper-slide").not(".swiper-slide-active, swiper-slide-duplicate-active").find("video").get(0).pause();
+//                 $(".visual_slider .swiper-slide-active video").get(0).currentTime = 0;
+//                 setTimeout(function() {
+//                     $(".visual_slider .swiper-slide-active video").get(0).play();
+//                 }, 800);
+//             }
+//         },
+//     }
+// });
 
 // 포트폴리오 슬라이드
 var visualSlide = new Swiper(".portfolio_slide", {
