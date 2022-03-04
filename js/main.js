@@ -64,7 +64,7 @@ gsap.to(".video_value", {
     }
 });
 
-$(window).load(function(){
+$(document).ready(function(){
     $(".visual_slider .swiper-slide video").get(0).play();
   });
 
