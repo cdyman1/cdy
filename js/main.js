@@ -66,7 +66,7 @@ gsap.to(".video_value", {
 
 // 페이지 뒤로가기 시 비디오 재생
 function restartIntroVideo() {
-	var video = document.getElementById('m_video');
+	var video = document.getElementById('intro_video');
 	video.pause();
 	video.currentTime = 0;
 	video.play();
