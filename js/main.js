@@ -64,9 +64,10 @@ gsap.to(".video_value", {
     }
 });
 
-$(document).ready(function(){
-    $(".visual_slider .swiper-slide video").get(0).play();
-  });
+window.onload = function () {
+    var element = document.getElementById('m_video');
+    element.muted = "muted";
+}
 
 // 비주얼 슬라이드
 // var visualSlide = new Swiper(".visual_slider", {
