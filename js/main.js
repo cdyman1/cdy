@@ -67,6 +67,7 @@ gsap.to(".video_value", {
 
 $(function() {
     var video = document.getElementById("m_video");
+    video.play();
     if(video.paused) {
         setTimeout(function(){
             video.play();
