@@ -64,10 +64,16 @@ gsap.to(".video_value", {
     }
 });
 
-window.onload = function () {
-    var element = document.getElementById('m_video');
-    element.muted = "muted";
-}
+
+$(function() {
+    var video = document.getElementById("m_video");
+    if(video.paused) {
+        setTimeout(function(){
+            video.play();
+        }, 1000);
+    }
+});
+
 
 // 비주얼 슬라이드
 // var visualSlide = new Swiper(".visual_slider", {
