@@ -64,17 +64,21 @@ gsap.to(".video_value", {
     }
 });
 
+// 페이지 뒤로가기 시 비디오 재생
+function restartIntroVideo() {
+	var video = document.getElementById('m_video');
+	video.pause();
+	video.currentTime = 0;
+	video.play();
+}
 
-$(function() {
-    var video = document.getElementById("m_video");
-    video.play();
-    if(video.paused) {
-        setTimeout(function(){
-            video.play();
-        }, 1000);
+restartIntroVideo();
+
+$(window).bind("pageshow", function (event) {
+    if (event.originalEvent.persisted) {
+        restartIntroVideo();
     }
 });
-
 
 // 비주얼 슬라이드
 // var visualSlide = new Swiper(".visual_slider", {
